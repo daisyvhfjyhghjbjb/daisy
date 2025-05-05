@@ -1,12 +1,14 @@
 <html>
-<head>
-<title>Page Title</title>
-<link rel=icon=daisy.jpg type=image/ipg>
+<head><title>Background Tag</title>
+<link rel=icon href=daisy.jpg type=image/jpg>
+<meta name=viewport content=width=device-width,initial-scale=1.0>
 </head>
-<body bg color = 66CCFF>
-<align=center>
-<h1>My Tutorial Lesson 4</h1>
+<body  
+bgcolor=CCFFFF>
 
+<h1 align=center>Tutorial lesson 4 </h1>
+
+<center>
 <p>
 <font face = Times New Roman size =5 color =red> Short story:
 </font>
