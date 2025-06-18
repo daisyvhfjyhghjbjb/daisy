@@ -1,0 +1,52 @@
+body {
+  margin-top: 20px;
+  margin-left: 50px;
+  background-image: url('images.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+hr {
+  height: 4px;
+  background-color: #33FF33;
+  border: none;
+  width: 50%;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  text-align: left;
+  color: #FFFFCC;
+  font-size: 3em;
+}
+
+h3 {
+  text-align: right;
+  color: #CC0000;
+  font-size: 3em;
+}
+
+h4 {
+  text-align: left;
+  color: #FFCCCC;
+  font-size: 3em;
+}
+
+font {
+  color: white;
+  font-size: 1.5em;
+}
+
+img.left {
+  border: 6px solid black;
+  float: left;
+}
+
+img.right {
+  border: 6px solid black;
+  float: right;
+}
