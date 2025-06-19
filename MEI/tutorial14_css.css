@@ -2,7 +2,7 @@ body {
   margin-top: 20px;
   margin-left: 50px;
   background-image: url('images.jpg');
-  /* DO NOT include background-size or background-repeat */
+  /* ✅ No background-size → so it tiles naturally */
 }
 
 hr {
@@ -45,7 +45,13 @@ ul {
   font-size: 1.5em;
 }
 
-img {
+img.left {
+  float: left;
+  border: 6px solid black;
+}
+
+img.right {
+  float: right;
   border: 6px solid black;
 }
 
