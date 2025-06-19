@@ -2,8 +2,7 @@ body {
   margin-top: 20px;
   margin-left: 50px;
   background-image: url('images.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* DO NOT include background-size or background-repeat */
 }
 
 hr {
@@ -36,17 +35,17 @@ h4 {
   font-size: 3em;
 }
 
-font {
+p {
   color: white;
   font-size: 1.5em;
 }
 
-img.left {
-  border: 6px solid black;
-  float: left;
+ul {
+  color: white;
+  font-size: 1.5em;
 }
 
-img.right {
+img {
   border: 6px solid black;
-  float: right;
 }
+
