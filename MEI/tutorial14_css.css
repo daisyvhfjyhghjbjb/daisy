@@ -1,9 +1,11 @@
+/* Body styling: margins & background image (tiles by default) */
 body {
   margin-top: 20px;
   margin-left: 50px;
   background-image: url('images.jpg');
-  /* ✅ No background-size → so it tiles naturally */
+
 }
+
 
 hr {
   height: 4px;
@@ -11,6 +13,7 @@ hr {
   border: none;
   width: 50%;
 }
+
 
 h1 {
   text-align: center;
@@ -35,6 +38,7 @@ h4 {
   font-size: 3em;
 }
 
+
 p {
   color: white;
   font-size: 1.5em;
@@ -45,6 +49,7 @@ ul {
   font-size: 1.5em;
 }
 
+
 img.left {
   float: left;
   border: 6px solid black;
@@ -54,4 +59,3 @@ img.right {
   float: right;
   border: 6px solid black;
 }
-
