@@ -2,10 +2,10 @@ body {
   margin-top: 20px;
   margin-left: 50px;
 
-  /*  Blocky repeating background */
+  /* ✅ Blocky background settings added below */
   background-image: url('images.jpg');
-  background-repeat: repeat;
-  background-size: auto;
+  background-repeat: repeat;        /* Repeat the image in a tiled pattern */
+  background-size: auto;            /* Keep image at original size = blocky */
   background-position: top left;
   background-attachment: scroll;
 }
@@ -22,8 +22,8 @@ h1 {
   color: white;
 }
 
-/*  Grey box only when needed */
-.highlight-header {
+/*  GROUPING: only h2 and h4 */
+h2, h4 {
   background-color: lightgray;
   padding: 5px;
 }
@@ -32,13 +32,13 @@ h2 {
   text-align: left;
   color: #FFFFCC;
   font-size: 3em;
-  /* No background by default */
 }
 
 h3 {
   text-align: right;
   color: #CC0000;
   font-size: 3em;
+  /* No background: original look */
 }
 
 h4 {
@@ -50,10 +50,9 @@ h4 {
 p {
   color: white;
   font-size: 1.5em;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
+/*  CLASS SELECTOR */
 .highlight {
   color: darkred;
   font-weight: bold;
@@ -64,21 +63,17 @@ ul {
   font-size: 1.5em;
 }
 
-/*  Floating images with spacing */
 img.left {
   float: left;
   border: 6px solid black;
-  margin-right: 20px;
-  margin-bottom: 20px;
 }
 
 img.right {
   float: right;
   border: 6px solid black;
-  margin-left: 20px;
-  margin-bottom: 20px;
 }
 
+/*  ID SELECTOR */
 #mainHeading {
   text-align: center;
   color: darkblue;
