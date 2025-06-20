@@ -2,7 +2,6 @@ body {
   margin-top: 20px;
   margin-left: 50px;
   background-image: url('images.jpg');
-  /* DO NOT include background-size or background-repeat */
 }
 
 hr {
@@ -17,9 +16,9 @@ h1 {
   color: white;
 }
 
-/*  GROUPING SELECTOR: applies background ONLY to h2 and h4 */
+/*  GROUPING SELECTOR: background for h2 and h4 only */
 h2, h4 {
-  background-color: ;
+  background-color: lightgray;
   padding: 5px;
 }
 
@@ -33,7 +32,7 @@ h3 {
   text-align: right;
   color: #CC0000;
   font-size: 3em;
-  /*  No background here — original look preserved */
+  /*  h3 stays clean — no background */
 }
 
 h4 {
@@ -47,7 +46,7 @@ p {
   font-size: 1.5em;
 }
 
-/* CLASS SELECTOR: apply to important <p> with class="highlight" */
+/*  CLASS SELECTOR: for special paragraphs */
 .highlight {
   color: darkred;
   font-weight: bold;
@@ -58,11 +57,17 @@ ul {
   font-size: 1.5em;
 }
 
-img {
+img.left {
+  float: left;
   border: 6px solid black;
 }
 
-/*  IDENTIFICATION SELECTOR: style unique main heading */
+img.right {
+  float: right;
+  border: 6px solid black;
+}
+
+/*  IDENTIFICATION SELECTOR: unique style for main heading */
 #mainHeading {
   text-align: center;
   color: darkblue;
