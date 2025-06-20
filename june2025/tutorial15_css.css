@@ -16,7 +16,7 @@ h1 {
   color: white;
 }
 
-/*  GROUPING SELECTOR: background for h2 and h4 only */
+/*  GROUPING: only h2 and h4 */
 h2, h4 {
   background-color: lightgray;
   padding: 5px;
@@ -32,7 +32,7 @@ h3 {
   text-align: right;
   color: #CC0000;
   font-size: 3em;
-  /*  h3 stays clean — no background */
+  /* No background: original look */
 }
 
 h4 {
@@ -46,7 +46,7 @@ p {
   font-size: 1.5em;
 }
 
-/*  CLASS SELECTOR: for special paragraphs */
+/*  CLASS SELECTOR */
 .highlight {
   color: darkred;
   font-weight: bold;
@@ -67,7 +67,7 @@ img.right {
   border: 6px solid black;
 }
 
-/*  IDENTIFICATION SELECTOR: unique style for main heading */
+/*  ID SELECTOR */
 #mainHeading {
   text-align: center;
   color: darkblue;
