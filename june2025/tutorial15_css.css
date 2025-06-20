@@ -1,11 +1,13 @@
 body {
   margin-top: 20px;
   margin-left: 50px;
+
+  /*  Blocky repeating background */
   background-image: url('images.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  /* DO NOT include background-size or background-repeat */
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: top left;
+  background-attachment: scroll;
 }
 
 hr {
@@ -20,8 +22,9 @@ h1 {
   color: white;
 }
 
-h2, h4 {
-  background-color:;
+/*  Grey box only when needed */
+.highlight-header {
+  background-color: lightgray;
   padding: 5px;
 }
 
@@ -29,6 +32,7 @@ h2 {
   text-align: left;
   color: #FFFFCC;
   font-size: 3em;
+  /* No background by default */
 }
 
 h3 {
@@ -50,7 +54,6 @@ p {
   margin-bottom: 10px;
 }
 
-/* Class for highlighted text */
 .highlight {
   color: darkred;
   font-weight: bold;
@@ -61,7 +64,7 @@ ul {
   font-size: 1.5em;
 }
 
-/* Image float styles */
+/*  Floating images with spacing */
 img.left {
   float: left;
   border: 6px solid black;
@@ -76,7 +79,6 @@ img.right {
   margin-bottom: 20px;
 }
 
-/* ID selector */
 #mainHeading {
   text-align: center;
   color: darkblue;
