@@ -1,0 +1,69 @@
+body {
+  margin-top: 20px;
+  margin-left: 50px;
+  background-image: url('images.jpg');
+  /* DO NOT include background-size or background-repeat */
+}
+
+hr {
+  height: 4px;
+  background-color: #33FF33;
+  border: none;
+  width: 50%;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+/*  GROUPING SELECTOR: applies background ONLY to h2 and h4 */
+h2, h4 {
+  background-color: ;
+  padding: 5px;
+}
+
+h2 {
+  text-align: left;
+  color: #FFFFCC;
+  font-size: 3em;
+}
+
+h3 {
+  text-align: right;
+  color: #CC0000;
+  font-size: 3em;
+  /*  No background here — original look preserved */
+}
+
+h4 {
+  text-align: left;
+  color: #FFCCCC;
+  font-size: 3em;
+}
+
+p {
+  color: white;
+  font-size: 1.5em;
+}
+
+/* CLASS SELECTOR: apply to important <p> with class="highlight" */
+.highlight {
+  color: darkred;
+  font-weight: bold;
+}
+
+ul {
+  color: white;
+  font-size: 1.5em;
+}
+
+img {
+  border: 6px solid black;
+}
+
+/*  IDENTIFICATION SELECTOR: style unique main heading */
+#mainHeading {
+  text-align: center;
+  color: darkblue;
+}
