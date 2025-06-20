@@ -5,6 +5,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  /* DO NOT include background-size or background-repeat */
 }
 
 hr {
