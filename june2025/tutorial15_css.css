@@ -2,6 +2,9 @@ body {
   margin-top: 20px;
   margin-left: 50px;
   background-image: url('images.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 hr {
@@ -16,7 +19,6 @@ h1 {
   color: white;
 }
 
-/*  GROUPING: only h2 and h4 */
 h2, h4 {
   background-color: lightgray;
   padding: 5px;
@@ -32,7 +34,6 @@ h3 {
   text-align: right;
   color: #CC0000;
   font-size: 3em;
-  /* No background: original look */
 }
 
 h4 {
@@ -44,9 +45,11 @@ h4 {
 p {
   color: white;
   font-size: 1.5em;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-/*  CLASS SELECTOR */
+/* Class for highlighted text */
 .highlight {
   color: darkred;
   font-weight: bold;
@@ -57,17 +60,22 @@ ul {
   font-size: 1.5em;
 }
 
+/* Image float styles */
 img.left {
   float: left;
   border: 6px solid black;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 img.right {
   float: right;
   border: 6px solid black;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
-/*  ID SELECTOR */
+/* ID selector */
 #mainHeading {
   text-align: center;
   color: darkblue;
