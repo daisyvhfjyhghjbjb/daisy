@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="images/daisy.png" type="image/png"> 
+    <title>Lumina Arts Academy - Student Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="site-branding"> <div class="logo-main-academy"> <a href="index.html">
+                       <span class="academy-heading-text">LUMINA ARTS ACADEMY</span>
+                    </a>
+                </div>
+                <div class="logo-university"> <a href="index.html"> <img src="university website logo.png" alt="University Logo" class="university-mini-logo">
+                    </a>
+                </div>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="admissions.html">Admissions</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="portal.html" class="active">Student Portal</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section hero-small">
+            <img src="portal page.jpg" alt="Artistic background" class="hero-background-image">
+            <div class="container hero-content-overlay">
+                <h1>Lumina Arts Academy Student Portal</h1>
+                <p>Access your courses, grades, and student resources.</p>
+            </div>
+        </section>
+
+        <section class="login-section section-padding">
+            <div class="container login-container">
+                <h2>Student Login</h2>
+                <form class="login-form" id="loginForm">
+                    <div class="form-group">
+                        <label for="username">Student ID / Email:</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group password-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                        <div id="password-strength" class="password-strength-indicator">
+                            Strength: <span id="strength-text">N/A</span>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">Login</button>
+                    <div class="login-links">
+                        <a href="#">Forgot Password?</a>
+                        <a href="#">New Student? Register Here</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="portal-features section-padding bg-light">
+            <div class="container">
+                <h2>Portal Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <i class="fas fa-book-open icon-medium"></i>
+                        <h3>Course Materials</h3>
+                        <p>Access lecture notes, assignments, and supplementary readings.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-graduation-cap icon-medium"></i>
+                        <h3>Grades & Progress</h3>
+                        <p>View your academic results and track your progress.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-calendar-alt icon-medium"></i>
+                        <h3>Academic Calendar</h3>
+                        <p>Stay updated on important dates, deadlines, and events.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-bell icon-medium"></i>
+                        <h3>Announcements</h3>
+                        <p>Receive important notices and updates from the academy.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-users icon-medium"></i>
+                        <h3>Student Services</h3>
+                        <p>Access support resources for academic advising, counseling, and more.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-dollar-sign icon-medium"></i>
+                        <h3>Financial Aid Info</h3>
+                        <p>Details on scholarships, grants, and tuition payment.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>Lumina Arts Academy</h3>
+                <p>123 Artistry Lane, Creative City, 12345, Malaysia</p>
+                <p>Phone: +6012-345 6789</p>
+                <p>Email: info@luminaarts.edu.my</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="programs.html">Our Programs</a></li>
+                    <li><a href="admissions.html">Admissions</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="portal.html">Student Portal</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+    <a href="https://www.facebook.com/YourAcademyPage"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.instagram.com/YourAcademyOfficial"><i class="fab fa-instagram"></i></a>
+    <a href="https://twitter.com/YourAcademyTweets"><i class="fab fa-twitter"></i></a>
+    </div>            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2025 Lumina Arts Academy. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

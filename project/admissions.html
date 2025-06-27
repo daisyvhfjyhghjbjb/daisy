@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="images/daisy.png" type="image/png"> 
+    <title>Lumina Arts Academy - Admissions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="site-branding"> <div class="logo-main-academy"> <a href="index.html">
+                        <span class="academy-heading-text">LUMINA ARTS ACADEMY</span>
+                    </a>
+                </div>
+                <div class="logo-university"> <a href="index.html"> <img src="university website logo.png" alt="University Logo" class="university-mini-logo">
+                    </a>
+                </div>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="admissions.html" class="active">Admissions</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="portal.html">Student Portal</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section hero-small">
+            <img src="admission page.jpg" alt="Artistic background" class="hero-background-image">
+            <div class="container hero-content-overlay">
+                <h1>Admissions & How to Apply</h1>
+                <p>Your journey into the arts begins here. Follow these steps to join Lumina Arts Academy.</p>
+            </div>
+        </section>
+
+        <section class="admissions-process section-padding">
+            <div class="container">
+                <h2>Application Process</h2>
+                <div class="process-steps">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h3>Choose Your Program</h3>
+                        <p>Explore our diverse range of Foundation, Diploma, Degree, and Master programs to find the perfect fit for your artistic aspirations.</p>
+                        <a href="programs.html" class="step-link">View Programs <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h3>Review Requirements</h3>
+                        <p>Check the specific admission criteria and required documents for your chosen program, including portfolio guidelines.</p>
+                        <a href="#requirements" class="step-link">See Requirements <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h3>Submit Online Application</h3>
+                        <p>Complete our comprehensive online application form and upload all necessary supporting documents.</p>
+                        <a href="#application-form" class="step-link">Start Application <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">4</div>
+                        <h3>Await Decision</h3>
+                        <p>Our admissions committee will review your application. You will be notified of the decision within the specified timeframe.</p>
+                        <a href="contact.html" class="step-link">Contact Admissions <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="requirements" class="requirements-section section-padding bg-light">
+            <div class="container">
+                <h2>Required Documents & Criteria</h2>
+                <div class="requirements-grid">
+                    <div class="req-item">
+                        <h3>General Requirements:</h3>
+                        <ul>
+                            <li>Official transcripts from previous academic institutions.</li>
+                            <li>Copy of National ID / Passport.</li>
+                            <li>Passport-sized photographs.</li>
+                            <li>Proof of English Language Proficiency (e.g., IELTS/TOEFL) for international students.</li>
+                        </ul>
+                    </div>
+                    <div class="req-item">
+                        <h3>Program-Specific Requirements:</h3>
+                        <ul>
+                            <li><strong>Portfolio:</strong> Required for most Fine Art, Graphic Design, Digital Animation, and Fashion Design programs. (Specific guidelines provided per program).</li>
+                            <li><strong>Audition/Interview:</strong> Required for Performing Arts and Music programs.</li>
+                            <li><strong>Statement of Purpose/Personal Essay:</strong> Required for Degree and Master programs.</li>
+                            <li><strong>Letters of Recommendation:</strong> Usually required for Master programs.</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="mt-4 text-center">For detailed program-specific requirements, please refer to the <a href="programs.html">Programs page</a> or contact our admissions office.</p>
+            </div>
+        </section>
+
+        <section id="application-form" class="application-form-section section-padding">
+            <div class="container">
+                <h2>Online Application Form</h2>
+                <form class="admission-form">
+                    <div class="form-group">
+                        <label for="fullName">Full Name:</label>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="programLevel">Intended Program Level:</label>
+                        <select id="programLevel" name="programLevel" required>
+                            <option value="">Select a level</option>
+                            <option value="foundation">Foundation</option>
+                            <option value="diploma">Diploma</option>
+                            <option value="degree">Degree</option>
+                            <option value="master">Master</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="programName">Intended Program Name:</label>
+                        <input type="text" id="programName" name="programName" placeholder="e.g., BA (Hons) Graphic Communication" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="dob">Date of Birth:</label>
+                        <input type="date" id="dob" name="dob" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="nationality">Nationality:</label>
+                        <input type="text" id="nationality" name="nationality" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="academicBackground">Highest Academic Qualification:</label>
+                        <textarea id="academicBackground" name="academicBackground" rows="3" placeholder="e.g., SPM, STPM, A-Levels, Diploma"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="portfolioLink">Portfolio Link (if applicable):</label>
+                        <input type="url" id="portfolioLink" name="portfolioLink" placeholder="e.g., behance.net/yourportfolio">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Additional Message / Questions:</label>
+                        <textarea id="message" name="message" rows="5"></textarea>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="agreeTerms" name="agreeTerms" required>
+                        <label for="agreeTerms">I agree to the <a href="#" class="privacy-link">Terms and Conditions</a> and <a href="#" class="privacy-link">Privacy Policy</a>.</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">Submit Application</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>Lumina Arts Academy</h3>
+                <p>123 Artistry Lane, Creative City, 12345, Malaysia</p>
+                <p>Phone: +6012-345 6789</p>
+                <p>Email: info@luminaarts.edu.my</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="programs.html">Our Programs</a></li>
+                    <li><a href="admissions.html">Admissions</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="portal.html">Student Portal</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+    <a href="https://www.facebook.com/YourAcademyPage"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.instagram.com/YourAcademyOfficial"><i class="fab fa-instagram"></i></a>
+    <a href="https://twitter.com/YourAcademyTweets"><i class="fab fa-twitter"></i></a>
+    </div>            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2025 Lumina Arts Academy. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
